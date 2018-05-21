@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92EE5B4132FA63A63FA627D9 /* Pods_thegirlshop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3498E00BAD43C0D8141A43D /* Pods_thegirlshop.framework */; };
+		B28FC0C420B05FF400024161 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FC0C320B05FF400024161 /* Font.swift */; };
+		B2F7E22A20A5DC7900E2F321 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F7E22920A5DC7900E2F321 /* AppDelegate.swift */; };
+		B2F7E23120A5DC7900E2F321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F7E23020A5DC7900E2F321 /* Assets.xcassets */; };
+		B2F7E23420A5DC7900E2F321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F7E23220A5DC7900E2F321 /* LaunchScreen.storyboard */; };
+		B2F7E23D20A5DCDA00E2F321 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F7E23B20A5DCDA00E2F321 /* HomeViewController.swift */; };
+		B2F7E23E20A5DCDA00E2F321 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2F7E23C20A5DCDA00E2F321 /* HomeViewController.xib */; };
+		B2F7E24120A7442E00E2F321 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F7E24020A7442E00E2F321 /* UIViewExt.swift */; };
+		B2F7E24320A7444100E2F321 /* UILabelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F7E24220A7444100E2F321 /* UILabelExt.swift */; };
+		B2F7E24520A7445D00E2F321 /* UITextFiled.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F7E24420A7445D00E2F321 /* UITextFiled.swift */; };
+		B2F7E24920A7481300E2F321 /* ThongkeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F7E24720A7481300E2F321 /* ThongkeViewController.swift */; };
+		B2F7E24A20A7481300E2F321 /* ThongkeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2F7E24820A7481300E2F321 /* ThongkeViewController.xib */; };
+		B2F7E24E20A82DB800E2F321 /* ThongKeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F7E24C20A82DB800E2F321 /* ThongKeTableCell.swift */; };
+		B2F7E24F20A82DB800E2F321 /* ThongKeTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2F7E24D20A82DB800E2F321 /* ThongKeTableCell.xib */; };
+		B2F7E25220A82E3A00E2F321 /* Ratio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F7E25120A82E3A00E2F321 /* Ratio.swift */; };
+		B2F7E25620A8352F00E2F321 /* ThongkeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F7E25520A8352F00E2F321 /* ThongkeViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B8FED617A813EABD85C866B /* Pods-thegirlshop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thegirlshop.release.xcconfig"; path = "Pods/Target Support Files/Pods-thegirlshop/Pods-thegirlshop.release.xcconfig"; sourceTree = "<group>"; };
+		5D7600061FA05A262C33A211 /* Pods-thegirlshop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thegirlshop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-thegirlshop/Pods-thegirlshop.debug.xcconfig"; sourceTree = "<group>"; };
+		B28FC0C320B05FF400024161 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		B2F7E22620A5DC7900E2F321 /* thegirlshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thegirlshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F7E22920A5DC7900E2F321 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2F7E23020A5DC7900E2F321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2F7E23320A5DC7900E2F321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2F7E23520A5DC7900E2F321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F7E23B20A5DCDA00E2F321 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B2F7E23C20A5DCDA00E2F321 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		B2F7E24020A7442E00E2F321 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		B2F7E24220A7444100E2F321 /* UILabelExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExt.swift; sourceTree = "<group>"; };
+		B2F7E24420A7445D00E2F321 /* UITextFiled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFiled.swift; sourceTree = "<group>"; };
+		B2F7E24720A7481300E2F321 /* ThongkeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThongkeViewController.swift; sourceTree = "<group>"; };
+		B2F7E24820A7481300E2F321 /* ThongkeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThongkeViewController.xib; sourceTree = "<group>"; };
+		B2F7E24C20A82DB800E2F321 /* ThongKeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThongKeTableCell.swift; sourceTree = "<group>"; };
+		B2F7E24D20A82DB800E2F321 /* ThongKeTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThongKeTableCell.xib; sourceTree = "<group>"; };
+		B2F7E25120A82E3A00E2F321 /* Ratio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ratio.swift; sourceTree = "<group>"; };
+		B2F7E25520A8352F00E2F321 /* ThongkeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThongkeViewModel.swift; sourceTree = "<group>"; };
+		E3498E00BAD43C0D8141A43D /* Pods_thegirlshop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_thegirlshop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2F7E22320A5DC7900E2F321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92EE5B4132FA63A63FA627D9 /* Pods_thegirlshop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44EAA3B0918BD8B80A83FC5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D7600061FA05A262C33A211 /* Pods-thegirlshop.debug.xcconfig */,
+				3B8FED617A813EABD85C866B /* Pods-thegirlshop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		75D8D32AD6B28653C6D6C119 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3498E00BAD43C0D8141A43D /* Pods_thegirlshop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2F7E21D20A5DC7900E2F321 = {
+			isa = PBXGroup;
+			children = (
+				B2F7E22820A5DC7900E2F321 /* thegirlshop */,
+				B2F7E22720A5DC7900E2F321 /* Products */,
+				44EAA3B0918BD8B80A83FC5F /* Pods */,
+				75D8D32AD6B28653C6D6C119 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B2F7E22720A5DC7900E2F321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2F7E22620A5DC7900E2F321 /* thegirlshop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2F7E22820A5DC7900E2F321 /* thegirlshop */ = {
+			isa = PBXGroup;
+			children = (
+				B2F7E25020A82E2F00E2F321 /* Define */,
+				B2F7E24620A747FE00E2F321 /* Thongke */,
+				B2F7E23F20A7442000E2F321 /* Ext */,
+				B2F7E22920A5DC7900E2F321 /* AppDelegate.swift */,
+				B2F7E23020A5DC7900E2F321 /* Assets.xcassets */,
+				B2F7E23220A5DC7900E2F321 /* LaunchScreen.storyboard */,
+				B2F7E23520A5DC7900E2F321 /* Info.plist */,
+				B2F7E23B20A5DCDA00E2F321 /* HomeViewController.swift */,
+				B2F7E23C20A5DCDA00E2F321 /* HomeViewController.xib */,
+			);
+			path = thegirlshop;
+			sourceTree = "<group>";
+		};
+		B2F7E23F20A7442000E2F321 /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				B2F7E24020A7442E00E2F321 /* UIViewExt.swift */,
+				B2F7E24220A7444100E2F321 /* UILabelExt.swift */,
+				B2F7E24420A7445D00E2F321 /* UITextFiled.swift */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
+		B2F7E24620A747FE00E2F321 /* Thongke */ = {
+			isa = PBXGroup;
+			children = (
+				B2F7E24B20A82D0400E2F321 /* Cell */,
+				B2F7E24720A7481300E2F321 /* ThongkeViewController.swift */,
+				B2F7E24820A7481300E2F321 /* ThongkeViewController.xib */,
+				B2F7E25520A8352F00E2F321 /* ThongkeViewModel.swift */,
+			);
+			path = Thongke;
+			sourceTree = "<group>";
+		};
+		B2F7E24B20A82D0400E2F321 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B2F7E24C20A82DB800E2F321 /* ThongKeTableCell.swift */,
+				B2F7E24D20A82DB800E2F321 /* ThongKeTableCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B2F7E25020A82E2F00E2F321 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				B2F7E25120A82E3A00E2F321 /* Ratio.swift */,
+				B28FC0C320B05FF400024161 /* Font.swift */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2F7E22520A5DC7900E2F321 /* thegirlshop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F7E23820A5DC7900E2F321 /* Build configuration list for PBXNativeTarget "thegirlshop" */;
+			buildPhases = (
+				37C7EDD516D5B3A2A4C55B33 /* [CP] Check Pods Manifest.lock */,
+				B2F7E22220A5DC7900E2F321 /* Sources */,
+				B2F7E22320A5DC7900E2F321 /* Frameworks */,
+				B2F7E22420A5DC7900E2F321 /* Resources */,
+				43E2B9B6E62F56DECD551446 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = thegirlshop;
+			productName = thegirlshop;
+			productReference = B2F7E22620A5DC7900E2F321 /* thegirlshop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2F7E21E20A5DC7900E2F321 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Thinh Nguyen";
+				TargetAttributes = {
+					B2F7E22520A5DC7900E2F321 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B2F7E22120A5DC7900E2F321 /* Build configuration list for PBXProject "thegirlshop" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2F7E21D20A5DC7900E2F321;
+			productRefGroup = B2F7E22720A5DC7900E2F321 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2F7E22520A5DC7900E2F321 /* thegirlshop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2F7E22420A5DC7900E2F321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F7E23420A5DC7900E2F321 /* LaunchScreen.storyboard in Resources */,
+				B2F7E24A20A7481300E2F321 /* ThongkeViewController.xib in Resources */,
+				B2F7E24F20A82DB800E2F321 /* ThongKeTableCell.xib in Resources */,
+				B2F7E23120A5DC7900E2F321 /* Assets.xcassets in Resources */,
+				B2F7E23E20A5DCDA00E2F321 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37C7EDD516D5B3A2A4C55B33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-thegirlshop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43E2B9B6E62F56DECD551446 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-thegirlshop/Pods-thegirlshop-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MVVM-Swift/MVVM.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftUtils/SwiftUtils.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MVVM.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftUtils.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-thegirlshop/Pods-thegirlshop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2F7E22220A5DC7900E2F321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F7E24120A7442E00E2F321 /* UIViewExt.swift in Sources */,
+				B2F7E24520A7445D00E2F321 /* UITextFiled.swift in Sources */,
+				B28FC0C420B05FF400024161 /* Font.swift in Sources */,
+				B2F7E22A20A5DC7900E2F321 /* AppDelegate.swift in Sources */,
+				B2F7E24920A7481300E2F321 /* ThongkeViewController.swift in Sources */,
+				B2F7E24E20A82DB800E2F321 /* ThongKeTableCell.swift in Sources */,
+				B2F7E25220A82E3A00E2F321 /* Ratio.swift in Sources */,
+				B2F7E24320A7444100E2F321 /* UILabelExt.swift in Sources */,
+				B2F7E23D20A5DCDA00E2F321 /* HomeViewController.swift in Sources */,
+				B2F7E25620A8352F00E2F321 /* ThongkeViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2F7E23220A5DC7900E2F321 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2F7E23320A5DC7900E2F321 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2F7E23620A5DC7900E2F321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2F7E23720A5DC7900E2F321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2F7E23920A5DC7900E2F321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D7600061FA05A262C33A211 /* Pods-thegirlshop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J922KYMUE;
+				INFOPLIST_FILE = thegirlshop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fc.thegirlshop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2F7E23A20A5DC7900E2F321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B8FED617A813EABD85C866B /* Pods-thegirlshop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J922KYMUE;
+				INFOPLIST_FILE = thegirlshop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fc.thegirlshop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2F7E22120A5DC7900E2F321 /* Build configuration list for PBXProject "thegirlshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F7E23620A5DC7900E2F321 /* Debug */,
+				B2F7E23720A5DC7900E2F321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2F7E23820A5DC7900E2F321 /* Build configuration list for PBXNativeTarget "thegirlshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F7E23920A5DC7900E2F321 /* Debug */,
+				B2F7E23A20A5DC7900E2F321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2F7E21E20A5DC7900E2F321 /* Project object */;
+}

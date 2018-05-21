@@ -1,0 +1,6 @@
+framework module Pods_thegirlshop {
+  umbrella header "Pods-thegirlshop-umbrella.h"
+
+  export *
+  module * { export * }
+}

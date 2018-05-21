@@ -1,0 +1,30 @@
+PODS:
+  - MVVM-Swift (1.1.0)
+  - Realm (3.5.0):
+    - Realm/Headers (= 3.5.0)
+  - Realm/Headers (3.5.0)
+  - RealmSwift (3.5.0):
+    - Realm (= 3.5.0)
+  - SwiftUtils (4.0.1)
+
+DEPENDENCIES:
+  - MVVM-Swift (~> 1.1.0)
+  - RealmSwift (~> 3.0)
+  - SwiftUtils (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MVVM-Swift
+    - Realm
+    - RealmSwift
+    - SwiftUtils
+
+SPEC CHECKSUMS:
+  MVVM-Swift: 54749cc12bb30af41632f30a2c576a18bf9e4bc8
+  Realm: 0378021c424e4e2bd6a0e63b27881e929d9b9ad1
+  RealmSwift: 3322562622fda2ad596985ead4d8d8be30cf838c
+  SwiftUtils: b009d391fb2e285392f114238f8b55d2750b80f0
+
+PODFILE CHECKSUM: 4b61104094ea88c7e64a535f4a2ea2181a143b3e
+
+COCOAPODS: 1.5.2

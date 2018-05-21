@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AmericanTypewriter.ttc">
+            <string>AmericanTypewriter</string>
+            <string>AmericanTypewriter-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="thegirlshop" customModuleProvider="target">
+            <connections>
+                <outlet property="giaTextField" destination="xIk-Z3-ijZ" id="gWK-9r-JkZ"/>
+                <outlet property="ketQuaTheoNgayLabel" destination="dxH-AE-v5C" id="K75-zB-3YV"/>
+                <outlet property="maQuanAoField" destination="I1V-d7-sWw" id="bRj-4p-NEk"/>
+                <outlet property="ngayButton" destination="ejj-yN-5jb" id="zyY-Yb-8FJ"/>
+                <outlet property="soluongTextField" destination="54N-Dk-OdI" id="cQX-Id-GAO"/>
+                <outlet property="thangButton" destination="jWo-qH-nBo" id="Eea-ep-mbo"/>
+                <outlet property="thanhTienButton" destination="Hnc-nV-ogp" id="PuC-oV-ZLb"/>
+                <outlet property="thanhtienLabel" destination="m4p-aE-lhN" id="W7B-Ja-QZl"/>
+                <outlet property="thongkeButton" destination="hdn-7A-Vse" id="AwF-cs-UP5"/>
+                <outlet property="tuanButton" destination="61g-5B-xJk" id="KJH-Uw-vLj"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dOl-8a-c3z">
+                    <rect key="frame" x="16" y="83" width="98" height="30"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="TX2-PZ-0Iw"/>
+                    </constraints>
+                    <attributedString key="attributedText">
+                        <fragment content="Mã quần áo ">
+                            <attributes>
+                                <font key="NSFont" size="17" name="AmericanTypewriter"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I1V-d7-sWw">
+                    <rect key="frame" x="16" y="123" width="343" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <action selector="textFieldDidChangeValueWithSender:" destination="-1" eventType="editingChanged" id="OR9-bF-ryA"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="54N-Dk-OdI">
+                    <rect key="frame" x="16" y="208" width="343" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                    <connections>
+                        <action selector="textFieldDidChangeValueWithSender:" destination="-1" eventType="editingChanged" id="vp4-Uy-1lK"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xIk-Z3-ijZ">
+                    <rect key="frame" x="16" y="293" width="343" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                    <connections>
+                        <action selector="textFieldDidChangeValueWithSender:" destination="-1" eventType="editingChanged" id="mKA-Ei-X7W"/>
+                    </connections>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PHs-tE-wvH">
+                    <rect key="frame" x="16" y="178" width="73" height="20"/>
+                    <attributedString key="attributedText">
+                        <fragment content="Số lượng">
+                            <attributes>
+                                <font key="NSFont" size="17" name="AmericanTypewriter"/>
+                                <font key="NSOriginalFont" size="17" name="AmericanTypewriter"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7N-B3-2gn">
+                    <rect key="frame" x="16" y="263" width="27" height="20"/>
+                    <attributedString key="attributedText">
+                        <fragment content="Giá">
+                            <attributes>
+                                <font key="NSFont" size="17" name="AmericanTypewriter"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m4p-aE-lhN">
+                    <rect key="frame" x="15.5" y="386" width="343" height="20"/>
+                    <attributedString key="attributedText">
+                        <fragment content="0đ">
+                            <attributes>
+                                <font key="NSFont" size="17" name="AmericanTypewriter"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="61g-5B-xJk">
+                    <rect key="frame" x="137" y="430.5" width="100" height="32"/>
+                    <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                    <state key="normal" title="1 Tuần">
+                        <color key="titleColor" red="0.99118846650000003" green="0.48311941959999999" blue="0.14059029640000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="sortTouchUpInSideWithSender:" destination="-1" eventType="touchUpInside" id="auA-Zg-y3J"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jWo-qH-nBo">
+                    <rect key="frame" x="242" y="430" width="100" height="32"/>
+                    <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                    <state key="normal" title="1 Tháng">
+                        <color key="titleColor" red="0.99118846650000003" green="0.48311941959999999" blue="0.14059029640000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="sortTouchUpInSideWithSender:" destination="-1" eventType="touchUpInside" id="WgZ-2b-ipn"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdn-7A-Vse">
+                    <rect key="frame" x="87" y="512.5" width="200" height="33"/>
+                    <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="17"/>
+                    <state key="normal" title="Thống kê">
+                        <color key="titleColor" red="0.99118846650000003" green="0.48311941959999999" blue="0.14059029640000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="presenVCWithSender:" destination="-1" eventType="touchUpInside" id="qKs-RT-fY9"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dxH-AE-v5C">
+                    <rect key="frame" x="124.5" y="470" width="125.5" height="35"/>
+                    <attributedString key="attributedText">
+                        <fragment content="1.000.000">
+                            <attributes>
+                                <color key="NSColor" red="0.99118846650000003" green="0.48311941959999999" blue="0.14059029640000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <font key="NSFont" size="24" name="AmericanTypewriter-Bold"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ejj-yN-5jb">
+                    <rect key="frame" x="32" y="430" width="100" height="32"/>
+                    <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                    <state key="normal" title="1 Ngày">
+                        <color key="titleColor" red="0.99118846650000003" green="0.48311941959999999" blue="0.14059029640000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="sortTouchUpInSideWithSender:" destination="-1" eventType="touchUpInside" id="2sZ-QV-oUI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hnc-nV-ogp">
+                    <rect key="frame" x="112" y="345" width="150" height="33"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="17"/>
+                    <state key="normal" title="Thành Tiền">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="thanhTienTouchUpInSideWithSender:" destination="-1" eventType="touchUpInside" id="9gM-Dn-9gm"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="hdn-7A-Vse" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="200:375" id="1kS-xi-kts"/>
+                <constraint firstItem="hdn-7A-Vse" firstAttribute="top" secondItem="dxH-AE-v5C" secondAttribute="bottom" constant="7.5" id="1ki-g6-fqt"/>
+                <constraint firstItem="Hnc-nV-ogp" firstAttribute="top" secondItem="xIk-Z3-ijZ" secondAttribute="bottom" constant="22" id="1sX-vh-tk8"/>
+                <constraint firstItem="54N-Dk-OdI" firstAttribute="top" secondItem="PHs-tE-wvH" secondAttribute="bottom" constant="10" id="3eS-gw-NIY"/>
+                <constraint firstItem="xIk-Z3-ijZ" firstAttribute="leading" secondItem="M7N-B3-2gn" secondAttribute="leading" id="8BD-Be-p5F"/>
+                <constraint firstItem="61g-5B-xJk" firstAttribute="top" secondItem="m4p-aE-lhN" secondAttribute="bottom" constant="25" id="AP5-6U-PwU"/>
+                <constraint firstItem="I1V-d7-sWw" firstAttribute="leading" secondItem="dOl-8a-c3z" secondAttribute="leading" id="Ci8-ZO-ta4"/>
+                <constraint firstItem="PHs-tE-wvH" firstAttribute="top" secondItem="I1V-d7-sWw" secondAttribute="bottom" constant="25" id="E8d-4A-PNe"/>
+                <constraint firstItem="hdn-7A-Vse" firstAttribute="top" secondItem="61g-5B-xJk" secondAttribute="bottom" constant="50" id="FGg-gT-hF4"/>
+                <constraint firstItem="I1V-d7-sWw" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Jd9-Iw-jLG"/>
+                <constraint firstItem="61g-5B-xJk" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="100:375" id="KIF-ZC-Bzr"/>
+                <constraint firstItem="dxH-AE-v5C" firstAttribute="top" secondItem="61g-5B-xJk" secondAttribute="bottom" constant="7.5" id="L7e-UW-WJy"/>
+                <constraint firstItem="61g-5B-xJk" firstAttribute="leading" secondItem="ejj-yN-5jb" secondAttribute="trailing" constant="5" id="LPB-hp-gq3"/>
+                <constraint firstItem="jWo-qH-nBo" firstAttribute="width" secondItem="61g-5B-xJk" secondAttribute="width" id="MIb-Vs-nYk"/>
+                <constraint firstItem="hdn-7A-Vse" firstAttribute="centerX" secondItem="61g-5B-xJk" secondAttribute="centerX" id="NP9-eV-qkN"/>
+                <constraint firstItem="xIk-Z3-ijZ" firstAttribute="top" secondItem="M7N-B3-2gn" secondAttribute="bottom" constant="10" id="OgP-iw-Bhd"/>
+                <constraint firstItem="hdn-7A-Vse" firstAttribute="centerX" secondItem="dxH-AE-v5C" secondAttribute="centerX" id="PeR-md-yUq"/>
+                <constraint firstItem="54N-Dk-OdI" firstAttribute="leading" secondItem="PHs-tE-wvH" secondAttribute="leading" id="Rkh-NL-DKv"/>
+                <constraint firstItem="jWo-qH-nBo" firstAttribute="leading" secondItem="61g-5B-xJk" secondAttribute="trailing" constant="5" id="T0n-TL-j9f"/>
+                <constraint firstItem="M7N-B3-2gn" firstAttribute="leading" secondItem="54N-Dk-OdI" secondAttribute="leading" id="TUR-NY-zsc"/>
+                <constraint firstItem="xIk-Z3-ijZ" firstAttribute="width" secondItem="54N-Dk-OdI" secondAttribute="width" id="XM8-Kh-Lzo"/>
+                <constraint firstItem="PHs-tE-wvH" firstAttribute="leading" secondItem="I1V-d7-sWw" secondAttribute="leading" id="Z86-l8-Vtk"/>
+                <constraint firstItem="61g-5B-xJk" firstAttribute="width" secondItem="ejj-yN-5jb" secondAttribute="width" id="aTY-ZB-DEl"/>
+                <constraint firstItem="jWo-qH-nBo" firstAttribute="centerY" secondItem="61g-5B-xJk" secondAttribute="centerY" id="cJx-Co-V7T"/>
+                <constraint firstItem="m4p-aE-lhN" firstAttribute="width" secondItem="xIk-Z3-ijZ" secondAttribute="width" id="cTZ-Ov-e8J"/>
+                <constraint firstItem="I1V-d7-sWw" firstAttribute="top" secondItem="dOl-8a-c3z" secondAttribute="bottom" constant="10" id="fJe-ny-HND"/>
+                <constraint firstItem="61g-5B-xJk" firstAttribute="centerY" secondItem="ejj-yN-5jb" secondAttribute="centerY" id="hAl-To-7Gu"/>
+                <constraint firstItem="m4p-aE-lhN" firstAttribute="top" secondItem="Hnc-nV-ogp" secondAttribute="bottom" constant="8" id="iQt-5W-Owy"/>
+                <constraint firstItem="dOl-8a-c3z" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="83" id="ilQ-hB-wGJ"/>
+                <constraint firstItem="M7N-B3-2gn" firstAttribute="top" secondItem="54N-Dk-OdI" secondAttribute="bottom" constant="25" id="jSH-nN-IJk"/>
+                <constraint firstItem="dOl-8a-c3z" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="kTn-Je-nXm"/>
+                <constraint firstItem="Hnc-nV-ogp" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="300:750" id="mtV-ov-wl1"/>
+                <constraint firstItem="54N-Dk-OdI" firstAttribute="width" secondItem="I1V-d7-sWw" secondAttribute="width" id="nfa-MW-Z7T"/>
+                <constraint firstItem="Hnc-nV-ogp" firstAttribute="centerX" secondItem="xIk-Z3-ijZ" secondAttribute="centerX" id="nkd-M7-hPb"/>
+                <constraint firstItem="m4p-aE-lhN" firstAttribute="centerX" secondItem="Hnc-nV-ogp" secondAttribute="centerX" id="oGB-do-6zd"/>
+                <constraint firstItem="61g-5B-xJk" firstAttribute="centerX" secondItem="m4p-aE-lhN" secondAttribute="centerX" id="wSb-Oh-AOI"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="NjX-2I-NTK"/>
+            <point key="canvasLocation" x="32.5" y="53.5"/>
+        </view>
+    </objects>
+</document>
